@@ -1,4 +1,4 @@
-package com.tericcabrel.authorization.controllers;
+package com.hydroworks.authorization.controllers;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.doNothing;
@@ -6,11 +6,11 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.tericcabrel.authorization.BaseIT;
-import com.tericcabrel.authorization.models.dtos.CreateUserDto;
-import com.tericcabrel.authorization.models.entities.Coordinates;
-import com.tericcabrel.authorization.models.entities.User;
-import com.tericcabrel.authorization.models.response.InvalidDataResponse;
+import com.hydroworks.authorization.BaseIT;
+import com.hydroworks.authorization.models.dtos.CreateUserDto;
+import com.hydroworks.authorization.models.entities.Coordinates;
+import com.hydroworks.authorization.models.entities.User;
+import com.hydroworks.authorization.models.response.InvalidDataResponse;
 
 import java.util.List;
 import java.util.Map;

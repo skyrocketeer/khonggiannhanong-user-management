@@ -1,9 +1,10 @@
-package com.tericcabrel.authorization;
+package com.hydroworks.authorization;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.tericcabrel.authorization.models.entities.Role;
-import com.tericcabrel.authorization.repositories.RoleRepository;
+import com.hydroworks.authorization.models.entities.Role;
+import com.hydroworks.authorization.repositories.RoleRepository;
+
 import java.util.List;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -34,7 +35,7 @@ class AuthorizationApplicationTests {
 	}
 
 	@Autowired
-	RoleRepository roleRepository;
+    RoleRepository roleRepository;
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.tericcabrel.authorization;
+package com.hydroworks.authorization;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

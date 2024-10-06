@@ -1,16 +1,14 @@
-package com.tericcabrel.authorization.controllers;
+package com.hydroworks.authorization.controllers;
 
-import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.hasProperty;
 import static org.hamcrest.core.Is.is;
-import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.tericcabrel.authorization.exceptions.GlobalExceptionHandler;
-import com.tericcabrel.authorization.services.interfaces.RoleService;
-import com.tericcabrel.authorization.services.interfaces.UserService;
+import com.hydroworks.authorization.exceptions.GlobalExceptionHandler;
+import com.hydroworks.authorization.services.interfaces.RoleService;
+import com.hydroworks.authorization.services.interfaces.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
